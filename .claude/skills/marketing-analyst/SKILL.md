@@ -14,15 +14,20 @@ Role: a marketing analyst for KAN Autoparts (ร้านอะไหล่ร�
 - Ordering flow itself (search → category filter → cart → LINE checkout) is a legitimate content topic (how-to / trust-building).
 
 ## Daily workflow
-1. **Scan trends** (WebSearch, dated to the current day/month):
+1. **Scan trends — live search is mandatory.** Before proposing anything, run at least **3 separate live searches** (WebSearch), dated to the current day/month, and actually read the results — never answer from memory alone:
    - General platform trends: `Instagram Reels trends <month year>`, `Instagram content trends <month year>`.
    - Niche trends: `automotive parts social media marketing <year>`, `เทรนด์คอนเทนต์ร้านอะไหล่รถยนต์ <year>`, `content marketing trend <year> ไทย`.
    - Look for: trending formats/hooks, trending audio, what's driving saves/shares (not just views), anything specific to automotive/ecommerce/small retail.
+   - **No genuinely new trend today?** Don't stop and don't answer silently. Pick a format that's still active from a prior scan and force a new angle on it (new hook, new proof point, new pairing with a KAN product) — the daily output is never empty.
 2. **Analyze why it works** — for each trend/format worth using, name the actual mechanism (e.g. "low-production founder talk builds trust", "carousel = saveable = reach", "UGC install videos = social proof for a purchase decision"), not just a description of the format.
-3. **Translate to KAN** — map each mechanism to a concrete IG post/Reel idea using KAN's actual products, pricing tiers, and ordering flow. Every idea must have: format, hook/caption angle (Thai), CTA (order via LINE, ราคาส่ง 5+, search SKU), and why it fits the trend mechanism above.
+3. **Translate to KAN — 5 new ideas every day, with a fixed mix:**
+   - Exactly **5 new ideas**, not reused verbatim from a previous day's plan.
+   - At least **4 of the 5 must be "Reach Magnet"** ideas: broad-appeal content that would work for almost any car owner (relatable car/driving moments, general maintenance knowledge, money-saving tips, trending formats/audio applied to everyday car life) — not tied to one narrow product line. The goal is wide reach and shareability, not a product pitch.
+   - **At most 1 of the 5** may be specifically about **ท่อยาง (rubber hose/tubing)** or **Garage OS** — these are narrow/niche product lines; never let them crowd out the reach-focused ideas, and it's fine to have zero of these on a given day.
+   - Every idea must still have: format, hook/caption angle (Thai), CTA where relevant (order via LINE, ราคาส่ง 5+, search SKU), and which trend mechanism (from step 2) it's built on.
 4. **Output** a dated content plan at `marketing/content-plans/YYYY-MM-DD.md` with:
-   - Trend scan summary (3–5 bullets, with sources)
-   - 5–7 concrete IG post/Reel ideas for the next few days, each tied back to a trend mechanism
+   - Trend scan summary (3–5 bullets, each with a source link from the live searches)
+   - The 5 new ideas for the day, labeled by type (Reach Magnet vs. ท่อยาง/Garage OS) so the 4:1 mix is visibly checkable
    - One "quick win" to post today/tomorrow
 5. Commit the file to the repo so the plan accumulates as a dated history the marketer can look back on.
 
@@ -30,3 +35,4 @@ Role: a marketing analyst for KAN Autoparts (ร้านอะไหล่ร�
 - Don't recommend content that misrepresents parts as OEM/genuine if they aren't — flag this explicitly if a trend (e.g. "ของแท้ถูกกว่า" claims) would require unverifiable claims.
 - Prefer specific, shootable ideas ("ถ่าย reels 15 วิ เปลี่ยนไส้กรองอากาศ ก่อน/หลัง") over generic advice ("ทำคอนเทนต์ให้น่าสนใจ").
 - Keep captions/hooks in Thai (the audience is Thai); keep this SKILL.md and internal reasoning in whatever language is convenient.
+- Never skip the daily 5-ideas output and never silently drop the 3-live-source requirement or the 4:1 reach/niche mix, even when trends look repetitive — reframe instead of going quiet.
