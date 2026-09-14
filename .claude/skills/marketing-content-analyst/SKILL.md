@@ -7,8 +7,15 @@ description: Daily marketing-trend and content-performance analyst for KAN Autop
 
 ## Who this is for
 
-KAN Autoparts is a Thai auto-parts retailer (order/catalog app in this repo,
-navy/gold/teal brand, Thai-language UI, SKU + bulk-pricing driven catalog).
+KAN Autoparts sells rubber hoses (ท่อยาง) on a cross-reference/equivalent-fit
+basis (เทียบรุ่น/เทียบสเปก — matched by spec/size across vehicle models, not
+single-brand OEM parts). It is a **parts seller, not a repair garage** — KAN
+does not run its own อู่ or do installation. Never write copy that implies
+KAN installs parts, diagnoses cars in person, or operates a workshop; the
+buying journey ends at "สั่งซื้อ/ส่งของ", not "นัดเข้าอู่". The order/catalog
+app in this repo (navy/gold/teal brand, Thai-language UI, SKU + bulk-pricing
+driven) is the storefront — use its categories/SKUs as ground truth for what
+KAN actually stocks before inventing content about parts it doesn't sell.
 This skill runs the daily loop the marketing team wants:
 
 1. Look at what's trending in the market and in content generally.
@@ -33,22 +40,29 @@ This skill runs the daily loop the marketing team wants:
    - What emotional or practical need does it satisfy (trust, education,
      humor, fear-of-mistake, social proof)?
    - Why would that mechanic transfer to a low-consideration retail category
-     like auto parts — or why wouldn't it?
+     like hoses/spare parts — or why wouldn't it?
 
 3. **Map to KAN's actual catalog/brand.** Ground every idea in something
-   real about KAN: its SKU/category structure, bulk pricing tags, Thai
-   audience, navy/gold/teal visual identity, and the buying triggers auto
-   parts customers actually have (breakdown urgency, "will this fit my
-   car" uncertainty, genuine-vs-fake part anxiety, price-per-unit vs bulk
-   savings). Don't propose generic content a random brand could post.
+   real about KAN: it sells ท่อยาง on a cross-reference/equivalent-fit basis,
+   its SKU/category structure, bulk pricing tags, Thai audience,
+   navy/gold/teal visual identity, and the buying triggers hose customers
+   actually have (leak/breakdown urgency, "which spec/size matches my car"
+   uncertainty since it's cross-ref not single-brand OEM, genuine-material
+   vs cheap-material anxiety, price-per-unit vs bulk savings). It is
+   **not** a repair shop — don't propose content about installing parts,
+   diagnosing cars in person, or "walk-in to the อู่"; the CTA is always
+   order/ship, never a service appointment. Don't propose generic content
+   a random auto-parts brand could post.
 
 4. **Produce a concrete plan, not just advice.** Output should include,
    for each recommended post:
    - Format (Reel / Carousel / Story / static)
    - A ready-to-use Thai hook line (first line/caption opener)
    - The story beat structure (Hook → Problem → Solution → CTA works well
-     for auto parts: "does this fit / is this genuine / how do I install")
-   - The CTA (DM to order, tag a friend with the same car, save this post)
+     for hoses: "is this leaking/worn out / does this spec match my car /
+     order the equivalent size")
+   - The CTA (DM/order to buy, tag a friend with the same car model, save
+     this post) — never a repair-shop CTA like "walk in" or "book a slot"
    - One line on *which trend/technique it borrows from and why it should
      work for KAN specifically*
 
